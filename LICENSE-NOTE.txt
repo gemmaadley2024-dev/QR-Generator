@@ -1,0 +1,3 @@
+Internal prototype package.
+
+Before company-wide deployment, confirm image/logo usage permissions and obtain IT/security approval.
