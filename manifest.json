@@ -1,0 +1,11 @@
+{
+  "name": "Ibstock ScanDraft QR",
+  "short_name": "ScanDraft QR",
+  "description": "Create QR-linked records from uploads, QA sheets and drawings.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#082a78",
+  "theme_color": "#082a78",
+  "orientation": "any",
+  "icons": []
+}
