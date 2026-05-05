@@ -1,38 +1,14 @@
-# QR-Generator — Advanced Ibstock ScanDraft QR
+# QR-Generator — QR Fixed Build
 
-GitHub Pages-ready static web app for creating QR-linked records from:
+This GitHub Pages-ready build fixes QR generation.
 
-- Upload Image / PDF
-- QA Sheet
-- Drawing Pad
+## What changed
+- Generate Combined QR Code now creates a scannable QR image.
+- QR links use the current GitHub Pages URL when hosted.
+- If opened locally, QR links fall back to:
+  https://gemmaadley2024-dev.github.io/QR-Generator
+- Nexus-only side gallery remains.
+- Upload / QA Sheet / Drawing Pad are still required before generation.
 
-## What is improved in this build
-
-- Polished Ibstock-blue UI
-- Nexus-only side building galleries
-- Clean flush image columns
-- Nexus product hero image retained
-- Upload / QA / Drawing completion progress indicators
-- Better mobile responsiveness
-- Print styling
-- PWA files included
-- GitHub Pages support via `.nojekyll`
-
-## Deploy to GitHub Pages
-
-1. Upload all files in this ZIP to your repository root.
-2. Commit to `main`.
-3. Go to **Settings > Pages**.
-4. Select **Deploy from a branch**.
-5. Choose `main` and `/root`.
-6. Save.
-
-## Important production note
-
-This is still a static prototype. For live company-wide use, connect:
-
-- backend storage
-- authentication
-- database
-- audit logs
-- approved company domain
+## Deploy
+Upload all files in this ZIP to your GitHub repository root and commit to `main`.
